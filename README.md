@@ -1,6 +1,6 @@
 # Choose Your Branch!
 
-This repo contains different versions of the starter code for **aa18-python-tweeter-phase-1**,
+This repo contains different versions of the starter code for **aa18-python-tweeter**,
 with each version stored in a program-specific branch. To download or clone the
 correct branch, choose a method (`tiged`, zip, or clone) and follow the
 instructions for your specific program.
@@ -12,7 +12,7 @@ instructions for your specific program.
 ## `tiged` the branch
 
 This is the most straightforward way to clone the project into a folder named
-**aa18-python-tweeter-phase-1**. In the directory where you want the project to appear, simply
+**aa18-python-tweeter**. In the directory where you want the project to appear, simply
 run the following command for your program and preferred authentication method:
 
 ### Online Full-Time
@@ -20,13 +20,13 @@ run the following command for your program and preferred authentication method:
 To authenticate with a Personal Access Token over HTTPS, run
 
 ```sh
-npx tiged https://github.com/appacademy/aa18-python-tweeter-phase-1#full-time aa18-python-tweeter-phase-1
+npx tiged https://github.com/appacademy/aa18-python-tweeter#full-time aa18-python-tweeter
 ```
 
 To authenticate with SSH, run
 
 ```sh
-npx tiged appacademy/aa18-python-tweeter-phase-1#full-time aa18-python-tweeter-phase-1
+npx tiged appacademy/aa18-python-tweeter#full-time aa18-python-tweeter
 ```
 
 ### Online Part-Time
@@ -34,13 +34,13 @@ npx tiged appacademy/aa18-python-tweeter-phase-1#full-time aa18-python-tweeter-p
 To authenticate with a Personal Access Token over HTTPS, run
 
 ```sh
-npx tiged https://github.com/appacademy/aa18-python-tweeter-phase-1#part-time aa18-python-tweeter-phase-1
+npx tiged https://github.com/appacademy/aa18-python-tweeter#part-time aa18-python-tweeter
 ```
 
 To authenticate with SSH, run
 
 ```sh
-npx tiged appacademy/aa18-python-tweeter-phase-1#part-time aa18-python-tweeter-phase-1
+npx tiged appacademy/aa18-python-tweeter#part-time aa18-python-tweeter
 ```
 
 -----
@@ -51,7 +51,7 @@ npx tiged appacademy/aa18-python-tweeter-phase-1#part-time aa18-python-tweeter-p
 Unless you cloned the project into an already existing local git repo, run
 
 ```sh
-cd aa18-python-tweeter-phase-1 && git init
+cd aa18-python-tweeter && git init
 ```
 
 to initialize the project as a git repository that you can connect to a remote
@@ -72,7 +72,7 @@ desired location and unzip!
 Unless you unzipped the project in an already existing local git repo, run
 
 ```sh
-cd aa18-python-tweeter-phase-1 && git init
+cd aa18-python-tweeter && git init
 ```
 
 to initialize the project as a git repository that you can connect to a remote
@@ -91,13 +91,13 @@ preferred authentication method:
 To authenticate with a Personal Access Token over HTTPS, run
 
 ```sh
-git clone --branch full-time --single-branch https://github.com/appacademy/aa18-python-tweeter-phase-1.git
+git clone --branch full-time --single-branch https://github.com/appacademy/aa18-python-tweeter.git
 ```
 
 To authenticate with SSH, run
 
 ```sh
-git clone --branch full-time --single-branch git@github.com:appacademy/aa18-python-tweeter-phase-1.git
+git clone --branch full-time --single-branch git@github.com:appacademy/aa18-python-tweeter.git
 ```
 
 ### Online Part-Time
@@ -105,26 +105,26 @@ git clone --branch full-time --single-branch git@github.com:appacademy/aa18-pyth
 To authenticate with a Personal Access Token over HTTPS, run
 
 ```sh
-git clone --branch part-time --single-branch https://github.com/appacademy/aa18-python-tweeter-phase-1.git
+git clone --branch part-time --single-branch https://github.com/appacademy/aa18-python-tweeter.git
 ```
 
 To authenticate with SSH, run
 
 ```sh
-git clone --branch part-time --single-branch git@github.com:appacademy/aa18-python-tweeter-phase-1.git
+git clone --branch part-time --single-branch git@github.com:appacademy/aa18-python-tweeter.git
 ```
 
 When you clone a repo, the cloned repo's remote `origin` will still point to the
 original repo.
 
 To reassign the clone to your personal GitHub account (so you can `push` and
-`pull` changes), create a remote `aa18-python-tweeter-phase-1` repo at `https://github.com`.
+`pull` changes), create a remote `aa18-python-tweeter` repo at `https://github.com`.
 Then, back in your local terminal, `cd` into the cloned repo and run the
 following commands to link the cloned repo to your newly created remote and push
 up the current code (replace <YOUR-GH-USERNAME> with your actual GitHub username):
 
 ```sh
-git remote set-url origin https://github.com/<YOUR-GH-USERNAME>/aa18-python-tweeter-phase-1
+git remote set-url origin https://github.com/<YOUR-GH-USERNAME>/aa18-python-tweeter
 git push -u origin
 ```
 
